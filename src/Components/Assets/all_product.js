@@ -96,7 +96,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "Original Adhesive Photo Frameless",
+    name: "Premium Home Textile Fabric",
     category: "women",
     image: p8_img,
     new_price: "Buy Now",
@@ -104,7 +104,7 @@ let all_product = [
   },
   {
     id: 9,
-    name: "Original Adhesive Photo Frameless",
+    name: "Industrial Textile Fabric",
     category: "women",
     image: p9_img,
     new_price: "Buy Now",
@@ -112,7 +112,7 @@ let all_product = [
   },
   {
     id: 10,
-    name: "Original Adhesive Photo Frameless",
+    name: "High-Quality Canvas Fabric",
     category: "women",
     image: p10_img,
     new_price: "Buy Now",
@@ -120,7 +120,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "Original Adhesive Photo Frameless",
+    name: "Breathable Apparel Fabric",
     category: "women",
     image: p11_img,
     new_price: "Buy Now",
@@ -128,7 +128,7 @@ let all_product = [
   },
   {
     id: 12,
-    name: "Original Adhesive Photo Frameless",
+    name: "Heavy Canvas Fabric",
     category: "women",
     image: p12_img,
     new_price: "Buy Now",
@@ -136,7 +136,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Original Adhesive Photo Frameless",
+    name: "Original",
     category: "men",
     image: p13_img,
     new_price: "Buy Now",
@@ -144,7 +144,7 @@ let all_product = [
   },
   {
     id: 14,
-    name: "Original Adhesive Photo Frameless",
+    name: "Soft Polyester Fabric",
     category: "men",
     image: p14_img,
     new_price: "Buy Now",
@@ -152,7 +152,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "Original Adhesive Photo Frameless",
+    name: "100% Pure Cotton Fabric",
     category: "men",
     image: p15_img,
     new_price: "Buy Now",
@@ -160,7 +160,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "Original Adhesive Photo Frameless",
+    name: "Woven Textile Fabric",
     category: "men",
     image: p16_img,
     new_price: "Buy Now",
@@ -168,7 +168,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "Original Adhesive Photo Frameless",
+    name: "Decorative Upholstery Fabric",
     category: "men",
     image: p17_img,
     new_price: "Buy Now",
@@ -176,7 +176,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "Original Adhesive Photo Frameless",
+    name: "Knitted Stretch Fabric",
     category: "men",
     image: p18_img,
     new_price: "Buy Now",
@@ -184,7 +184,7 @@ let all_product = [
   },
   {
     id: 19,
-    name: "Original Adhesive Photo Frameless",
+    name: "Breathable Apparel Fabric",
     category: "men",
     image: p19_img,
     new_price: "Buy Now",
@@ -192,7 +192,7 @@ let all_product = [
   },
   {
     id: 20,
-    name: "Original Adhesive Photo Frameless",
+    name: "Polyester Blend Fabric",
     category: "men",
     image: p20_img,
     new_price: "Buy Now",
@@ -200,7 +200,7 @@ let all_product = [
   },
   {
     id: 21,
-    name: "Original Adhesive Photo Frameless",
+    name: "Heavy Canvas Fabric",
     category: "men",
     image: p21_img,
     new_price: "Buy Now",
@@ -208,7 +208,7 @@ let all_product = [
   },
   {
     id: 22,
-    name: "Original Adhesive Photo Frameless",
+    name: "Premium Cotton Fabric",
     category: "men",
     image: p22_img,
     new_price: "Buy Now",
@@ -216,7 +216,7 @@ let all_product = [
   },
   {
     id: 23,
-    name: "Original Adhesive Photo Frameless",
+    name: "High-Quality Canvas Fabric",
     category: "men",
     image: p23_img,
     new_price: "Buy Now",
@@ -224,7 +224,7 @@ let all_product = [
   },
   {
     id: 24,
-    name: "Original Adhesive Photo Frameless",
+    name: "Woven Textile Fabric",
     category: "men",
     image: p24_img,
     new_price: "Buy Now",
@@ -232,7 +232,7 @@ let all_product = [
   },
   {
     id: 25,
-    name: "Original Adhesive Photo Frameless",
+    name: "Premium Home Textile Fabric",
     category: "kid",
     image: p25_img,
     new_price: "Buy Now",
@@ -240,7 +240,7 @@ let all_product = [
   },
   {
     id: 26,
-    name: "Original Adhesive Photo Frameless",
+    name: "Curtain Fabric Collection",
     category: "kid",
     image: p26_img,
     new_price: "Buy Now",
@@ -248,7 +248,7 @@ let all_product = [
   },
   {
     id: 27,
-    name: "Original Adhesive Photo Frameless",
+    name: "Soft Touch Fashion Fabric",
     category: "kid",
     image: p27_img,
     new_price: "Buy Now",
@@ -256,7 +256,7 @@ let all_product = [
   },
   {
     id: 28,
-    name: "Original Adhesive Photo Frameless",
+    name: "High-Density Polyester",
     category: "kid",
     image: p28_img,
     new_price: "Buy Now",
@@ -264,7 +264,7 @@ let all_product = [
   },
   {
     id: 29,
-    name: "Original Adhesive Photo Frameless",
+    name: "Technical Textile",
     category: "kid",
     image: p29_img,
     new_price: "Buy Now",
@@ -272,7 +272,7 @@ let all_product = [
   },
   {
     id: 30,
-    name: "Original Adhesive Photo Frameless",
+    name: "Printed Cotton Fabric",
     category: "kid",
     image: p30_img,
     new_price: "Buy Now",
@@ -280,7 +280,7 @@ let all_product = [
   },
   {
     id: 31,
-    name: "Original Adhesive Photo Frameless",
+    name: "Printed Cotton Fabric",
     category: "kid",
     image: p31_img,
     new_price: "Buy Now",
@@ -288,7 +288,7 @@ let all_product = [
   },
   {
     id: 32,
-    name: "Original Adhesive Photo Frameless",
+    name: "Premium Cotton Fabric",
     category: "kid",
     image: p32_img,
     new_price: "Buy Now",
@@ -296,7 +296,7 @@ let all_product = [
   },
   {
     id: 33,
-    name: "Original Adhesive Photo Frameless",
+    name: "Textile Collection",
     category: "kid",
     image: p33_img,
     new_price: "Buy Now",
@@ -304,7 +304,7 @@ let all_product = [
   },
   {
     id: 34,
-    name: "Original Adhesive Photo Frameless",
+    name: "Textile Collection",
     category: "kid",
     image: p34_img,
     new_price: "Buy Now",
@@ -312,7 +312,7 @@ let all_product = [
   },
   {
     id: 35,
-    name: "Original Adhesive Photo Frameless",
+    name: "Featured Fabrics",
     category: "kid",
     image: p35_img,
     new_price: "Buy Now",
@@ -320,7 +320,7 @@ let all_product = [
   },
   {
     id: 36,
-    name: "Canvas Print Framed with floating frames",
+    name: "Fabric Showcase",
     category: "kid",
     image: p36_img,
     new_price: "Buy Now",
