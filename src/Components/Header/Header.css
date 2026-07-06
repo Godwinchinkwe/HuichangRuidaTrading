@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     /* background:#f8f3f3; */
-    background:#E7C3A1;
+    background:#0B3D91;
     color:rgb(27, 1, 1) ;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* position:fixed; */
@@ -59,7 +59,7 @@
 .nav_text1{
     text-decoration: none;
     cursor: pointer;
-    color: rgb(19, 2, 2);
+    color: rgb(255, 255, 255);
     font-weight: 700;
 }
 .maindrop{

@@ -7,7 +7,7 @@ function Nav() {
   let activeStyle = {
     textDecoration: "underline",
     fontSize:"19px",
-    color:"#e11e25",
+    color:"#e1a61e",
     fontWeight:"700" 
   };
 
