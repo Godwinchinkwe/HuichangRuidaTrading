@@ -1,34 +1,33 @@
-import p1_img from "./1frame1.jpg";
-import p2_img from "./3frame3.jpg";
-import p3_img from "./3standing frame.jpg";
-import p4_img from "./apf_logo.png";
-import p5_img from "./back side frame .jpg";
-import p6_img from "./bg cont.jpeg";
-import p7_img from "./choose edge color.jpg";
-import p8_img from "./diff shades of back side .jpg";
-import p9_img from "./easy operate.jpg";
-import p10_img from "./fram 1.jpg";
-import p11_img from "./fram 2.jpg";
-import p12_img from "./frame 3.jpg";
-import p13_img from "./frame 5.jpg";
-import p14_img from "./frame bleek.jpg";
-import p15_img from "./frame diff size.jpg";
-import p16_img from "./frameurpics.jpg";
-import p17_img from "./front & back.jpg";
-import p18_img from "./i r frame.jpg";
-import p19_img from "./packing and payment .jpg";
-import p20_img from "./sleek1.jpg";
-import p21_img from "./sleek2.jpg";
-import p22_img from './square_framefull.jpg'
-import p23_img from './round frame.jpg'
-import p24_img from './round_frameful.jpg'
-import p25_img from './front_andback view.jpg'
-
-import p26_img from "./sleek6.jpg";
-import p27_img from "./new_frames/product_27.jpg";
-import p28_img from "./new_frames/product_28.jpg";
-import p29_img from "./new_frames/product_29.jpg";
-import p30_img from "./new_frames/product_30.jpg";
+import p1_img from "./Fabric/dee.jpg";
+import p2_img from "./Fabric/gee2.jpg";
+import p3_img from "./Fabric/gee3.jpg";
+import p4_img from "./Fabric/gee4.jpg";
+import p5_img from "./Fabric/gee5.jpg";
+import p6_img from "./Fabric/gee6.jpg";
+import p7_img from "./Fabric/gee7.jpg";
+import p8_img from "./Fabric/gee8.jpg";
+import p9_img from "./Fabric/gee9.jpg";
+import p10_img from "./Fabric/gee10.jpg";
+import p11_img from "./Fabric/gee11.jpg";
+import p12_img from "./Fabric/gee12.jpg";
+import p13_img from "./Fabric/gee13.jpg";
+import p14_img from "./Fabric/gee14.jpg";
+import p15_img from "./Fabric/gee15.jpg";
+import p16_img from "./Fabric/gee16.jpg";
+import p17_img from "./Fabric/gee17.jpg";
+import p18_img from "./Fabric/gee18.jpg";
+import p19_img from "./Fabric/gee19.jpg";
+import p20_img from "./Fabric/gee20.jpg";
+import p21_img from "./Fabric/gee21.jpg";
+import p22_img from './Fabric/gee22.jpg'
+import p23_img from './Fabric/gee23.jpg'
+import p24_img from './Fabric/gee24.jpg'
+import p25_img from './Fabric/gee25.jpg'
+import p26_img from "./Fabric/gee26.jpg";
+import p27_img from "./Fabric/gee27.jpg";
+import p28_img from "./Fabric/gee28.jpg";
+import p29_img from "./Fabric/gee29.jpg";
+import p30_img from "./Fabric/gee30.jpg";
 import p31_img from "./new_frames/product_31.jpg";
 import p32_img from "./new_frames/product_32.jpg";
 import p33_img from "./new_frames/product_33.jpg";

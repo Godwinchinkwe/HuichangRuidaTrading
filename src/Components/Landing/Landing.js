@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Landing.css"
-import tent1 from "../Assets/wall frame.jpg"
-import tent2 from "../Assets/table frame cut.jpg"
+import tent1 from "../Assets/Fabric/Hero1.jpg"
+import tent2 from "../Assets/Fabric/Gee1.jpg"
 import { FaLocationDot } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Landing = () => {
         <div>
         <div class="cantainer">
           <div class="cantainer__left">
-            <h1>Huichang Ruida Trading</h1>
+            <h1>Hangzhong Huichang Ruida Trading Co. Ltd.</h1>
            
             <p><span ><Typewriter options={{
                             strings : [ "Transform your memories into timeless treasures with our Exquisite Picture Frame. Elevate your space and Showcase Cherished moments with our Stylish Frames.","... ", "Where Every Pictures Tells a Story." ],
@@ -39,9 +39,9 @@ const Landing = () => {
               <img src={tent2} alt="tent-2" class="tent-2" />
             </div>
             <div class="contentx">
-              <h4>12m2 | 2 Frames</h4>
-              <h2>Huichang Ruida </h2>
-              <h3>High Quality Product</h3>
+              <h4>High Quality Product</h4>
+              <h2>Hangzhong </h2>
+              <h3>Huichang Ruida Trading Co. Ltd</h3>
               <p>
            Hangzhong Huichang Ruida Trading Co. Ltd. is a trading company specializing in the sourcing, distribution, and export of a wide range of industrial, commercial, and consumer products. The company is committed to providing high-quality products, competitive pricing, and efficient supply chain solutions to customers in both domestic and international markets.
     
