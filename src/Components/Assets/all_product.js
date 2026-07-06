@@ -28,12 +28,12 @@ import p27_img from "./Fabric/gee27.jpg";
 import p28_img from "./Fabric/gee28.jpg";
 import p29_img from "./Fabric/gee29.jpg";
 import p30_img from "./Fabric/gee30.jpg";
-import p31_img from "./new_frames/product_31.jpg";
-import p32_img from "./new_frames/product_32.jpg";
-import p33_img from "./new_frames/product_33.jpg";
-import p34_img from "./new_frames/product_34.jpg";
-import p35_img from "./new_frames/product_35.jpg";
-import p36_img from "./new_frames/product_36.jpg";
+import p31_img from "./Fabric/gee31.jpg";
+import p32_img from "./Fabric/gee32.jpg";
+import p33_img from "./Fabric/gee33.jpg";
+import p34_img from "./Fabric/gee34.jpg";
+import p35_img from "./Fabric/gee35.jpg";
+import p36_img from "./Fabric/gee36.jpg";
 
 
 

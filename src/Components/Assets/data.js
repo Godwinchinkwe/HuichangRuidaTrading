@@ -1,15 +1,15 @@
-import p1_img from './sleek1.jpg'
-import p2_img from './sleek2.jpg'
-import p3_img from './sleek3.jpg'
-import p4_img from './sleek4.jpg'
-import p5_img from './square_framefull.jpg'
-import p6_img from './round frame.jpg'
-import p7_img from './round_frameful.jpg'
-import p8_img from './front_andback view.jpg'
+import p1_img from './Fabric/gee20.jpg'
+import p2_img from './Fabric/gee21.jpg'
+import p3_img from './Fabric/gee7.jpg'
+import p4_img from './Fabric/gee15.jpg'
+import p5_img from './Fabric/gee10.jpg'
+import p6_img from './Fabric/gee23.jpg'
+import p7_img from './Fabric/gee36.jpg'
+import p8_img from './Fabric/gee18.jpg'
 
 let data_product = [
   {
-    id:22,
+    id:10,
     name:"Frameless SPlit",
     image:p5_img,
     new_price: "Buy Now",
@@ -21,13 +21,13 @@ let data_product = [
     new_price: "Buy Now",
     old_price:"Now in Stock",
   },
-  {id:24,
+  {id:36,
     name:"Frameless SPlit",
     image:p7_img,
     new_price: "Buy Now",
     old_price:"Now in Stock",
   },
-  {id:21,
+  {id:15,
     name:"Frameless",
     image:p4_img,
     new_price: "Buy Now",
@@ -55,7 +55,7 @@ let data_product = [
     old_price:"Now in Stock",
     
   },
-  {id:25,
+  {id:18,
     name:"Frameless",
     image:p8_img,
     new_price: "Buy Now",
