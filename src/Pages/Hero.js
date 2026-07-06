@@ -1,76 +1,66 @@
-// import React, { useState, useEffect } from 'react';
-import React from 'react'
 
-import Landing from '../Components/Landing/Landing'
-import Carousel from '../Components/Carousel/Carousel'
-import Popular from "../Components/Popular/Popular"
-import Experience from "../Components/Experience/Experience"
-import "./CSS/Hero.css"
-// import Pop from "./Pop"
-// import Testimonials from '../Components/Testimonials/Testimonials'
-// import Pricing from '../Components/Pricing/Pricing'
+import React from "react";
+import "./CSS/Hero.css";
+import Landing from "../Components/Landing/Landing";
+import Popular from "../Components/Popular/Popular";
+import Experience from "../Components/Experience/Experience";
+import Carousel from "../Components/Carousel/Carousel";
+import {
+  FaGlobe,FaHandshake,FaShippingFast,FaClipboardCheck,
+  FaIndustry,FaBoxes,FaCheckCircle
+} from "react-icons/fa";
 
+export default function Hero(){
+return (
+<div className="hero-page">
+  <Landing/>
+  <Popular/>
 
-const Hero = () => {
- 
+  <section className="company-intro">
+    <div className="container">
+      <span className="tag">Global Trading Excellence</span>
+      <h1>Reliable International Trading & Supply Chain Solutions</h1>
+      <p>Hangzhong Huichang Ruida Trading Co., Ltd. partners with manufacturers and businesses worldwide to deliver dependable sourcing, OEM production, procurement, quality control and international logistics.</p>
 
-
-
-  return (
-    <div className='hero-landing-page'>
-
-
-     
-
-      <Landing />
-      <Popular />
-      <section className='about_us'>
-        <div className='about-heading'>
-          <h1>Why Choose Us</h1>
-        </div>
-        <div className='about-container'>
-          <div className='ahbout-hero-content'>
-            <h2> Our Values</h2>
-            <ul>
-              <li>High-quality materials and craftsmanship </li>
-              <li>Strict delivery schedule </li>
-              <li> Competitive pricing </li>
-              <li>Strong technical force and well-equipped testing facilities </li>
-              <li>Guild Commended Framer with highly trained craftsmen </li>
-              <li> Over 8 years of industry expertise </li>
-            </ul>
-        
-            {/* <button className='about-cta-button'> Contact us</button> */}
-          </div>
-          <div className='ahbout-hero-content'>
-            <h2>Products</h2>
-            <ol>
-              <li>High-quality materials and craftsmanship </li>
-              <li>Strict delivery schedule </li>
-              <li> Competitive pricing </li>
-            </ol> 
-            <br/>
-           
-            <h2>Facilities and Capacity </h2>
-            <ul>
-              <li>High-quality materials and craftsmanship </li>
-              <li>Strict delivery schedule </li>
-              <li> Competitive pricing </li>
-            </ul>
-          </div>
-         
-        </div>
-        {/* <Testimonials /> */}
-
-      </section> 
-
-      <Experience />
-      <Carousel/>
-      {/* <Pricing /> */}
-
+      <div className="feature-grid">
+        <div className="card"><FaGlobe/><h3>Global Network</h3><p>Trusted suppliers and manufacturers across multiple industries.</p></div>
+        <div className="card"><FaHandshake/><h3>Trusted Partnership</h3><p>Transparent communication and long‑term business relationships.</p></div>
+        <div className="card"><FaShippingFast/><h3>Worldwide Logistics</h3><p>Efficient export documentation and shipping coordination.</p></div>
+        <div className="card"><FaClipboardCheck/><h3>Quality Assurance</h3><p>Inspection and quality control before shipment.</p></div>
+        <div className="card"><FaIndustry/><h3>OEM & Private Label</h3><p>Flexible manufacturing for growing brands.</p></div>
+        <div className="card"><FaBoxes/><h3>Wholesale Supply</h3><p>Competitive sourcing for distributors and retailers.</p></div>
+      </div>
     </div>
-  )
+  </section>
+
+  <section className="why">
+    <div className="container">
+      <h2>Why Choose Us</h2>
+      <div className="checks">
+        {[
+          "Competitive Factory Pricing","Verified Supplier Network",
+          "Strict Quality Standards","Fast Global Shipping",
+          "Professional Procurement","Responsive Customer Support",
+          "Flexible OEM Solutions","Long‑Term Business Partnership"
+        ].map((t,i)=><div className="check" key={i}><FaCheckCircle/>{t}</div>)}
+      </div>
+
+      <div className="stats">
+        <div><h3>50+</h3><span>Trusted Suppliers</span></div>
+        <div><h3>20+</h3><span>Countries Served</span></div>
+        <div><h3>1000+</h3><span>Orders Supported</span></div>
+        <div><h3>99%</h3><span>Customer Focus</span></div>
+      </div>
+    </div>
+  </section>
+
+  <Experience/>
+  <Carousel/>
+
+  <section className="cta">
+    <h2>Ready to Build Your Global Supply Chain?</h2>
+    <p>Partner with us for reliable sourcing, manufacturing and international trade solutions.</p>
+    <button>Contact Us Today</button>
+  </section>
+</div>);
 }
-
-export default Hero
-

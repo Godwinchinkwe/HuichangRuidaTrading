@@ -49,7 +49,7 @@ const About = () => {
       <section className='contact'>
         <div className='content'>
           <h1> Contact Us </h1>
-          <p>We sell Photolabs Materials such as  Flash Laminations Films, Matt Laminations Films Leather Laminations Films, Printer Papers Canvas Materials etc.</p> <br/>
+          <p>We're here to help with your sourcing, trading, and business needs. Whether you have a product inquiry, need a quotation, or are interested in forming a business partnership, our team is ready to assist you. Reach out to us by phone, email, or by filling out the contact form, and we'll respond as quickly as possible. We look forward to doing business with you.</p> <br/>
           <p>"Lets Make Something Amazing together start by Saying Hello"</p>
         </div>
         <div className='container'>
@@ -59,7 +59,8 @@ const About = () => {
               <div className='text'>
                 <h3>Head office & Showroom</h3>
                 <p> 
-                No.17 Lisabi street Debari bus stop Shomolu Lagos, Nigeria.
+                Building 5, No. 1910 Youyi Road, Guali
+District, Hangzhou, Zhejiang 311241, China
                 </p>
               </div>
             </div>
@@ -67,14 +68,14 @@ const About = () => {
               <div className='icon'><MdOutlineMarkEmailUnread /></div>
               <div className='text'>
                 <h3>Emails</h3>
-                <p>Adrianperfectframing@yahoo.com</p>
+                <p>---</p>
               </div>
             </div>
             <div className='box'>
               <div className='icon'><FaPhone /> </div>
               <div className='text'>
                 <h3>Phone No</h3>
-                <p>+2347039868895 </p>
+                <p>+2348064318819</p>
               </div>
             </div>
           </div>

@@ -1,55 +1,219 @@
-import React from 'react'
-import "./CSS/About.css"
-import bout from "../Components/Assets/bout us.jpg"
-import mission from "../Components/Assets/ouur mission.jpg"
-// import {useNavigate} from "react-router-dom"
-// import { NavLink } from "react-router-dom";
+import React from "react";
+import "./CSS/About.css";
+import bout from "../Components/Assets/bout us.jpg";
+import mission from "../Components/Assets/ouur mission.jpg";
+import {
+  FaGlobe,
+  FaHandshake,
+  FaAward,
+  FaShippingFast,
+  FaCheckCircle,
+  FaUsers,
+} from "react-icons/fa";
 
 const About = () => {
-  // const navigate = useNavigate();
   return (
-    <div>
-      <section className='about_us'>
-        <div className='about-heading'>
-          <h1>About Us</h1>
+    <div className="about-page">
 
-        </div>
-        <div className='about-container'>
-          <div className='about-hero-content'>
-            <h2> Welcome to Our website</h2>
-            <p>Hangzhong Huichang Ruida Trading Co., Ltd. is a China-based trading company specializing in the sourcing, distribution, and export of a wide range of industrial, commercial, and consumer products. The company is committed to providing high-quality products, competitive pricing, and efficient supply chain solutions to customers in both domestic and international markets. By working closely with trusted manufacturers and logistics partners, Hangzhong Huichang Ruida Trading Co., Ltd. aims to deliver reliable products, timely shipments, and exceptional customer service while fostering long-term business relationships built on integrity, professionalism, and mutual growth. </p>
-            {/* <NavLink to="Contact/"> <button className='about-cta-button'> Contact us</button> </NavLink> */}
-            {/* <button className='about-cta-button'> Contact us</button> */}
-          </div>
-          <div className='about-hero-image'>
-            <img src={bout} alt='' />
-          </div>
+      {/* Hero Section */}
+
+      <section className="about-hero">
+
+        <div className="about-heading">
+          <span className="section-tag">About Our Company</span>
+
+          <h1>Connecting Global Markets with Confidence</h1>
+
+          <p>
+            Hangzhong Huichang Ruida Trading Co., Ltd. is a trusted
+            international trading company specializing in sourcing,
+            procurement, manufacturing coordination, and global logistics.
+            We help businesses around the world access high-quality products,
+            dependable suppliers, and seamless supply chain solutions.
+          </p>
         </div>
 
       </section>
-       
-      <section className='about_us'>
-        <div className='about-heading'>
-          <h1>Our Mission</h1>
-        </div>
-        <div className='about-containerxy'>
-          <div className='about-hero-image'>
-            <div className='about-hero-content'>
-             <img src={mission} alt='' />
-            </div>
-          </div>
-          <div className='about-hero-content'>
-            <h2> Our Vision, Our Passion.</h2>
-            <p>At Hangzhong Huichang Ruida Trading Co., Ltd., our mission is to connect global markets through reliable trading solutions, high-quality products, and exceptional customer service. We are committed to building lasting partnerships by delivering value, maintaining the highest standards of integrity, and ensuring efficiency at every stage of the supply chain.
 
-By leveraging strong relationships with trusted manufacturers and logistics partners, we strive to provide competitive pricing, timely delivery, and innovative sourcing solutions that meet the evolving needs of businesses worldwide. Our goal is to empower our clients with dependable products and services that contribute to their long-term success while fostering sustainable growth and international trade.
+      {/* About Company */}
+
+      <section className="about-section">
+
+        <div className="about-container">
+
+          <div className="about-image">
+            <img src={bout} alt="About Us" />
+          </div>
+
+          <div className="about-content">
+
+            <h2>Who We Are</h2>
+
+            <p>
+              Hangzhong Huichang Ruida Trading Co., Ltd. is committed to
+              simplifying international trade by connecting global buyers with
+              trusted manufacturers and suppliers. Our expertise covers product
+              sourcing, OEM manufacturing, procurement, quality inspection,
+              export management, and logistics coordination.
             </p>
-            <button className='about-cta-button'> Contact us</button>
-          </div>
-        </div>
-      </section> 
-    </div>
-  )
-}
 
-export default About
+            <p>
+              Through years of industry experience and an extensive supplier
+              network, we have established ourselves as a reliable business
+              partner dedicated to delivering quality products, competitive
+              pricing, and exceptional customer service. Every partnership is
+              built on trust, integrity, and long-term collaboration.
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* Mission */}
+
+      <section className="about-section mission-section">
+
+        <div className="about-container reverse">
+
+          <div className="about-content">
+
+            <h2>Our Mission</h2>
+
+            <p>
+              Our mission is to empower businesses through reliable sourcing,
+              efficient procurement, and innovative supply chain solutions. We
+              strive to exceed customer expectations by delivering superior
+              quality, competitive pricing, and timely international delivery.
+            </p>
+
+            <p>
+              By fostering strong relationships with manufacturers and clients,
+              we create sustainable business opportunities that support mutual
+              growth across global markets.
+            </p>
+
+          </div>
+
+          <div className="about-image">
+            <img src={mission} alt="Mission" />
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* Vision */}
+
+      <section className="vision-section">
+
+        <h2>Our Vision</h2>
+
+        <p>
+          To become a globally recognized trading company known for excellence,
+          innovation, and integrity while building long-term partnerships that
+          drive international business success.
+        </p>
+
+      </section>
+
+      {/* Core Values */}
+
+      <section className="values-section">
+
+        <h2>Our Core Values</h2>
+
+        <div className="values-grid">
+
+          <div className="value-card">
+            <FaHandshake />
+            <h3>Integrity</h3>
+            <p>
+              We conduct every business relationship with honesty,
+              transparency, and professionalism.
+            </p>
+          </div>
+
+          <div className="value-card">
+            <FaAward />
+            <h3>Quality</h3>
+            <p>
+              Every product undergoes careful sourcing and quality assurance to
+              meet international standards.
+            </p>
+          </div>
+
+          <div className="value-card">
+            <FaShippingFast />
+            <h3>Reliability</h3>
+            <p>
+              Timely delivery and dependable logistics are at the heart of our
+              supply chain solutions.
+            </p>
+          </div>
+
+          <div className="value-card">
+            <FaUsers />
+            <h3>Customer Focus</h3>
+            <p>
+              We understand every client's needs and provide customized trading
+              solutions for lasting success.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* Why Choose Us */}
+
+      <section className="choose-section">
+
+        <h2>Why Choose Us</h2>
+
+        <div className="choose-grid">
+
+          <div><FaCheckCircle /> Trusted Global Supplier Network</div>
+
+          <div><FaCheckCircle /> Competitive Factory Pricing</div>
+
+          <div><FaCheckCircle /> Professional Procurement Services</div>
+
+          <div><FaCheckCircle /> OEM & Private Label Manufacturing</div>
+
+          <div><FaCheckCircle /> International Shipping Support</div>
+
+          <div><FaCheckCircle /> Dedicated Customer Service</div>
+
+          <div><FaCheckCircle /> Strict Quality Inspection</div>
+
+          <div><FaCheckCircle /> Long-Term Business Partnership</div>
+
+        </div>
+
+      </section>
+
+      {/* CTA */}
+
+      <section className="cta-section">
+
+        <FaGlobe className="cta-icon"/>
+
+        <h2>Let's Build Your Global Business Together</h2>
+
+        <p>
+          Whether you're an importer, distributor, wholesaler, or retailer,
+          Hangzhong Huichang Ruida Trading Co., Ltd. is ready to become your
+          trusted sourcing and international trading partner.
+        </p>
+
+        <button>Contact Us Today</button>
+
+      </section>
+
+    </div>
+  );
+};
+
+export default About;

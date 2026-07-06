@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Product from './Pages/Product';
 import Contact from './Pages/Contact';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
-import Whatsapp from './Components/Whatsapp/whatsapp';
+// import Whatsapp from './Components/Whatsapp/whatsapp';
 import TermsAndCondition from "./Pages/TermsAndCondition"
 import Gallery from "./Pages/Gallery"
 import Faq from './Pages/Faq';
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Header/>
-      <Whatsapp/>
+      {/* <Whatsapp/> */}
        <Routes>
         <Route path="/" element={<Hero/>} />
         <Route path='/about' element={<About/>}/>
