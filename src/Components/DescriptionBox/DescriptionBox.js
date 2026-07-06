@@ -10,8 +10,8 @@ const DescriptionBox = () => {
         <div className='description-nav-box fade'>Reviews (122)</div>
        </div>
        <div className='descriptionbox-description'>
-        <p> When buying a frame, it's essential to consider both style and functionality to best complement and protect the artwork or photo </p>
-        <p> Materials like wood offer a classic, durable look, while metal frames give a modern, sleek feel. Ensure the frame includes sturdy backing, especially for valuable or delicate items, and consider UV-protected glass to shield against fading. </p>
+        <p> We offer a wide selection of premium-quality fabrics designed for durability, comfort, and style. Our collection includes materials suitable for apparel, home textiles, upholstery, and industrial applications, sourced from trusted manufacturers to ensure consistent quality and competitive pricing</p>
+        <p> Our fabric products are carefully sourced to meet international quality standards, offering excellent durability, comfort, and versatility. We provide reliable textile solutions for manufacturers, retailers, and wholesalers worldwide. </p>
        </div>
     </div>
     </div>

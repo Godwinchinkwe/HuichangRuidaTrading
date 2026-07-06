@@ -40,7 +40,7 @@ import p36_img from "./Fabric/gee36.jpg";
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Premium Cotton Fabric",
     category: "women",
     image: p1_img,
     new_price: "Buy Now",
@@ -48,7 +48,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "Original Adhesive Photo Frameless",
+    name: "100% Pure Cotton Fabric",
     category: "women",
     image: p2_img,
     new_price: "Buy Now",
@@ -56,7 +56,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "Original Adhesive Photo Frameless",
+    name: "Soft Woven Cotton",
     category: "women",
     image: p3_img,
     new_price: "Buy Now",
@@ -64,7 +64,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "Original Adhesive Photo Frameless",
+    name: "Organic Cotton Textile",
     category: "women",
     image: p4_img,
     new_price: "Buy Now",
@@ -72,7 +72,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "Original Adhesive Photo Frameless",
+    name: "Breathable Cotton Fabric",
     category: "women",
     image: p5_img,
     new_price: "Buy Now",
@@ -80,7 +80,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Original Adhesive Photo Frameless",
+    name: "Premium Linen Fabric",
     category: "women",
     image: p6_img,
     new_price: "Buy Now",
@@ -88,7 +88,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "Original Adhesive Photo Frameless",
+    name: "Luxury Linen Blend",
     category: "women",
     image: p7_img,
     new_price: "Buy Now",

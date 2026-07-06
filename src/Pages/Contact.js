@@ -68,14 +68,14 @@ District, Hangzhou, Zhejiang 311241, China
               <div className='icon'><MdOutlineMarkEmailUnread /></div>
               <div className='text'>
                 <h3>Emails</h3>
-                <p>---</p>
+                <p>HangzhongHuichangRuida@gmail.com </p>
               </div>
             </div>
             <div className='box'>
               <div className='icon'><FaPhone /> </div>
               <div className='text'>
                 <h3>Phone No</h3>
-                <p>+2348064318819</p>
+                <p>+86 45768976901</p>
               </div>
             </div>
           </div>

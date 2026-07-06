@@ -5,12 +5,14 @@ import Landing from "../Components/Landing/Landing";
 import Popular from "../Components/Popular/Popular";
 import Experience from "../Components/Experience/Experience";
 import Carousel from "../Components/Carousel/Carousel";
+import {useNavigate} from "react-router-dom"
 import {
   FaGlobe,FaHandshake,FaShippingFast,FaClipboardCheck,
   FaIndustry,FaBoxes,FaCheckCircle
 } from "react-icons/fa";
 
 export default function Hero(){
+   const navigate = useNavigate();
 return (
 <div className="hero-page">
   <Landing/>
@@ -58,9 +60,10 @@ return (
   <Carousel/>
 
   <section className="cta">
-    <h2>Ready to Build Your Global Supply Chain?</h2>
-    <p>Partner with us for reliable sourcing, manufacturing and international trade solutions.</p>
-    <button>Contact Us Today</button>
+    <h2>Hangzhong Huichang Ruida Trading Co. Ltd</h2>
+    <p>Address: Building 5, No. 1910 Youyi Road, Guali
+District, Hangzhou, Zhejiang 311241, China</p>
+    <button  onClick={() =>  navigate('contact/')}>Contact Us Today</button>
   </section>
 </div>);
 }
