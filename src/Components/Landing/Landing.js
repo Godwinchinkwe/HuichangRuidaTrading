@@ -16,7 +16,7 @@ const Landing = () => {
         <div>
         <div class="cantainer">
           <div class="cantainer__left">
-            <h1>Hang Zhong Huichang Ruida Trading Co., Ltd.</h1>
+            <h1>Hang Zhou Huichang Ruida Trading Co., Ltd.</h1>
            
             <p><span ><Typewriter options={{
                             strings : [ "The company is committed to providing high-quality products.","... ", "Where Every Fabric Tells a Story." ],
@@ -40,10 +40,10 @@ const Landing = () => {
             </div>
             <div class="contentx">
               <h4>High Quality Product</h4>
-              <h2>Hang Zhong </h2>
+              <h2> Hang Zhou </h2>
               <h3>Huichang Ruida Trading Co., Ltd</h3>
               <p>
-           Hang Zhong Huichang Ruida Trading Co., Ltd. is a trading company specializing in the sourcing, distribution, and export of a wide range of industrial, commercial, and consumer products. The company is committed to providing high-quality products, competitive pricing, and efficient supply chain solutions to customers in both domestic and international markets.
+           Hang Zhou Huichang Ruida Trading Co., Ltd is a trading company specializing in the sourcing, distribution, and export of a wide range of industrial, commercial, and consumer products. The company is committed to providing high-quality products, competitive pricing, and efficient supply chain solutions to customers in both domestic and international markets.
     
               </p>
             </div>

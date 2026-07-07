@@ -20,7 +20,7 @@ const Services = () => {
         <h1>Comprehensive Trading & Supply Chain Solutions</h1>
 
         <p>
-          Hangzhong Huichang Ruida Trading Co., Ltd. is committed to providing
+          Hang Zhou Huichang Ruida Trading Co., Ltd is committed to providing
           world-class sourcing, procurement, manufacturing, and logistics
           solutions for businesses around the globe. With an extensive network
           of trusted suppliers and manufacturers, we help our clients obtain
