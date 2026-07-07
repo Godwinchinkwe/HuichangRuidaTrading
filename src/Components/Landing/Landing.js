@@ -19,7 +19,7 @@ const Landing = () => {
             <h1>Hang Zhong Huichang Ruida Trading Co., Ltd.</h1>
            
             <p><span ><Typewriter options={{
-                            strings : [ "Transform your memories into timeless treasures with our Exquisite Picture Frame. Elevate your space and Showcase Cherished moments with our Stylish Frames.","... ", "Where Every Pictures Tells a Story." ],
+                            strings : [ "The company is committed to providing high-quality products.","... ", "Where Every Fabric Tells a Story." ],
                             loop: true,
                             autoStart:true,
                             typeSpeed: 120,
