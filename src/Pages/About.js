@@ -25,7 +25,7 @@ const About = () => {
           <h1>Connecting Global Markets with Confidence</h1>
 
           <p>
-            Hangzhong Huichang Ruida Trading Co., Ltd. is a trusted
+            Hang zhong Huichang Ruida Trading Co., Ltd. is a trusted
             international trading company specializing in sourcing,
             procurement, manufacturing coordination, and global logistics.
             We help businesses around the world access high-quality products,
@@ -50,7 +50,7 @@ const About = () => {
             <h2>Who We Are</h2>
 
             <p>
-              Hangzhong Huichang Ruida Trading Co., Ltd. is committed to
+              Hang zhong Huichang Ruida Trading Co., Ltd. is committed to
               simplifying international trade by connecting global buyers with
               trusted manufacturers and suppliers. Our expertise covers product
               sourcing, OEM manufacturing, procurement, quality inspection,
@@ -204,7 +204,7 @@ const About = () => {
 
         <p>
           Whether you're an importer, distributor, wholesaler, or retailer,
-          Hangzhong Huichang Ruida Trading Co., Ltd. is ready to become your
+          Hang zhong Huichang Ruida Trading Co., Ltd. is ready to become your
           trusted sourcing and international trading partner.
         </p>
 

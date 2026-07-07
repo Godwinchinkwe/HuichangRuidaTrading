@@ -22,7 +22,7 @@ return (
     <div className="container">
       <span className="tag">Global Trading Excellence</span>
       <h1>Reliable International Trading & Supply Chain Solutions</h1>
-      <p>Hangzhong Huichang Ruida Trading Co., Ltd. partners with manufacturers and businesses worldwide to deliver dependable sourcing, OEM production, procurement, quality control and international logistics.</p>
+      <p>Hang Zhong Huichang Ruida Trading Co., Ltd. partners with manufacturers and businesses worldwide to deliver dependable sourcing, OEM production, procurement, quality control and international logistics.</p>
 
       <div className="feature-grid">
         <div className="card"><FaGlobe/><h3>Global Network</h3><p>Trusted suppliers and manufacturers across multiple industries.</p></div>
@@ -50,7 +50,7 @@ return (
       <div className="stats">
         <div><h3>50+</h3><span>Trusted Suppliers</span></div>
         <div><h3>20+</h3><span>Countries Served</span></div>
-        <div><h3>1000+</h3><span>Orders Supported</span></div>
+        <div><h3>999+</h3><span>Orders Supported</span></div>
         <div><h3>99%</h3><span>Customer Focus</span></div>
       </div>
     </div>
@@ -60,9 +60,9 @@ return (
   <Carousel/>
 
   <section className="cta">
-    <h2>Hangzhong Huichang Ruida Trading Co. Ltd</h2>
+    <h2>Hang Zhong Huichang Ruida Trading Co., Ltd</h2>
     <p>Address: Building 5, No. 1910 Youyi Road, Guali
-District, Hangzhou, Zhejiang 311241, China</p>
+District, Hang Zhou, Zhejiang 311241, China</p>
     <button  onClick={() =>  navigate('contact/')}>Contact Us Today</button>
   </section>
 </div>);
